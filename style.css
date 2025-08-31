@@ -779,3 +779,32 @@ form .form-select:hover {
   color: white;
 }
 
+.billing-toggle {
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(29, 46, 74, 0.2); /* subtle dark-blue glow */
+}
+
+.billing-btn {
+  background: #c2ccdb; /* light blu for inactive */
+  color: #1a2636; /* dark blu text */
+  border: none;
+  padding: 12px 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.billing-btn:hover {
+  background: #52667e; /* grey blu */
+  color: #ffffff;
+}
+
+/* Active */
+.billing-btn.active {
+  background: #1d2e4a; /* dark blu */
+  color: #ffffff;
+  box-shadow: 0 0 12px rgba(210, 207, 202, 0.7); /* peach glow */
+  transform: scale(1.05);
+  z-index: 1;
+}

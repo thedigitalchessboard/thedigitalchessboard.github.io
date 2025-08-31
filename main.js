@@ -77,3 +77,12 @@ if (yearSpan) {
     quarterlyPlans.forEach(plan => plan.classList.remove("d-none"));
     monthlyPlans.forEach(plan => plan.classList.add("d-none"));
   });
+
+  const buttons = document.querySelectorAll(".billing-btn");
+
+buttons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    buttons.forEach((b) => b.classList.remove("active"));
+    btn.classList.add("active");
+  });
+});
