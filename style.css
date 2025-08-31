@@ -7,6 +7,14 @@
 #ffffff
 */
 
+body {
+  cursor: url('assets/Cursor/samples/3.png'), auto;
+}
+
+/*a, button, [role="button"] {
+  cursor: url('assets/Cursor/samples/4.png'), pointer;
+}*/
+
 section#about,
 section#mentors,
 section#learn,
