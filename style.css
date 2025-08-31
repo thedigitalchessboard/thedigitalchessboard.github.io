@@ -624,10 +624,10 @@ form .form-select:hover {
 .bento-grid {
   display: grid;
   grid-template-areas:
-    "five five five two two two"
-    "seven seven four four four four"
+    "seven seven seven two two two"
     "one one six six three three"
-    "one one eight eight three three";
+    "one one eight eight three three"
+    "five five four four four four";
   gap: 1rem;
   grid-template-columns: repeat(6, 1fr);
 }
