@@ -11,9 +11,9 @@ body {
   cursor: url('assets/Cursor/samples/3.png'), auto;
 }
 
-/*a, button, [role="button"] {
-  cursor: url('assets/Cursor/samples/4.png'), pointer;
-}*/
+a, button, [role="button"] {
+  cursor: url('assets/Cursor/samples/3.png'), pointer;
+}
 
 section#about,
 section#mentors,
@@ -314,8 +314,8 @@ header.carousel {
 .slick-prev,
 .slick-next {
   background: none;
-  width: auto;
-  height: auto;
+  width: 50px;
+  height: 50px;
   z-index: 10;
   top: 50%;
   transform: translateY(-50%);
