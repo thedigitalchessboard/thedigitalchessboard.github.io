@@ -8,11 +8,11 @@
 */
 
 body {
-  cursor: url('assets/Cursor/samples/3.png'), auto;
+  cursor: url('assets/Cursor/queen.png'), auto;
 }
 
 a, button, [role="button"] {
-  cursor: url('assets/Cursor/samples/3.png'), pointer;
+  cursor: url('assets/Cursor/queen.png'), pointer;
 }
 
 section#about,
