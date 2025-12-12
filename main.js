@@ -20,7 +20,7 @@ $(document).ready(function(){
 });
 
 // EmailJS form handling
-emailjs.init("AUrDjCFXKEPQFcONg"); // your EmailJS public key
+emailjs.init("7TtY6YCTP8C7d-EeS"); // your EmailJS public key
 
 const demoForm = document.getElementById("demoForm");
 const overlay = document.getElementById("form-overlay");
@@ -34,7 +34,7 @@ if (demoForm && overlay) {
       return;
     }
 
-    emailjs.sendForm("service_8ibej0o", "template_j0yo23b", demoForm)
+    emailjs.sendForm("service_x8gm0ej", "template_d3fa2np", demoForm)
       .then(() => {
         demoForm.reset();
         demoForm.classList.remove("was-validated");
